@@ -2,7 +2,9 @@
 
 ## Sydney C, Aubrey W, Finn W, Olivia V
 
-## Species: TBA
+## Species: Cascade torrent salamander
+
+![](cascadesalamander.jpg){width="533"}
 
 ### A paragraph about a favorite species from each of us:
 
