@@ -15,9 +15,13 @@ xmin<-min(noNASal$longitude)
 ymax<-max(noNASal$latitude)
 ymin<-min(noNASal$latitude)
 ggplot()+
+  theme(panel.background = element_rect(fill = "#BFD5E3", colour = "#6D9EC1"))+
   geom_polygon(data=wrld, mapping=aes(x=long, y=lat, group=group), fill="grey75", colour="grey68") +
-  geom_point(data=noNASal, mapping=aes(x=longitude, y=latitude),show.legend = FALSE)+
+  geom_point(data=noNASal, mapping=aes(x=longitude, y=latitude),show.legend = FALSE, color="darkgreen")+
   labs(title="species occurences of Rhyacotriton cascadae", x="longitude", y="latitude")+
   coord_fixed(xlim=c(xmin -2,xmax +2), ylim=c (ymin,ymax))+
   scale_size_area()+
   borders("state")
+
+#the occurrence points are places where a person saw a salamander. 
+#They're verified by several people to be counted as research grade.
