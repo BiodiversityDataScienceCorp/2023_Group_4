@@ -4,5 +4,8 @@ library(spocc)
 library(tidyverse)
 
 rawData<-occ(query="Rhyacotriton cascadae", from="gbif", limit=4000)
-salamnderData<-rawData$gbif$data$Rhyacotriton_cascadae
+salamanderData<-rawData$gbif$data$Rhyacotriton_cascadae
 
+noDoopSal <- salamanderData %>% mutate(location = paste(latitude, longitude, dateIdentified, sep = "/")) %>% 
+  distinct(location, .keep_all = TRUE)
+noNASal <- noDoopSal %>% filter(latitude != "NA", longitude != "NA")
