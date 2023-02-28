@@ -40,6 +40,9 @@ vignettes/*.pdf
 *.Rproj
 github.R
 
-/wc2-5
-/maxent_outputs
+data/wc2-5/*
+data/cmip5/*
+output/maxent_outputs/*
+
+
 
