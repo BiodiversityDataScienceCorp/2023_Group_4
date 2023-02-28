@@ -39,6 +39,7 @@ vignettes/*.pdf
 .Renviron
 *.Rproj
 github.R
+GitHub.R
 
 data/wc2-5/*
 data/cmip5/*
