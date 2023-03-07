@@ -28,5 +28,5 @@ ggplot()+
 
 #the occurrence points are places where a person saw a salamander. 
 #They're verified by several people to be counted as research grade.
-
+write_csv(noNASal, path="data/salamanderData.csv")
 

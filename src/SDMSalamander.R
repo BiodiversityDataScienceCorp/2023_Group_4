@@ -10,7 +10,8 @@ library(tidyverse)
 library(rJava)
 library(maps)
 
-salamanderDataNotCoords<-noNASal%>%dplyr::select(longitude,latitude)
+salamanderCSV<-read_csv("data/salamanderData.csv")
+salamanderDataNotCoords<-salamanderCS%>%dplyr::select(longitude,latitude)
 salamanderDataSpatialPts <- SpatialPoints(salamanderDataNotCoords, proj4string = CRS("+proj=longlat"))
 
 currentEnv <- getData("worldclim", var="bio", res=2.5, path="data/")
