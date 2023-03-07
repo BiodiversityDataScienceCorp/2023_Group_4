@@ -14,4 +14,4 @@ ggplot()+
   coord_fixed(xlim=c(xmin -2,xmax +2), ylim=c (ymin,ymax))+
   scale_size_area()+
   borders("state")
-ggsave(filename="salamanderOccurrence.jpg", scale=2, path="output")
+ggsave(filename="salamanderOccurrence.jpg", path="output", width=1600, height=1200, units = "px" )
