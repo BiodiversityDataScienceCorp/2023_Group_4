@@ -1,12 +1,14 @@
 futureClim<-raster::getData(name="CMIP5", var = 'bio', res = 2.5,
                             rcp = 45, model = 'IP', year = 70, path="data")
 names(futureClim) = names(clim)
+#got future climate data
 
 geographicAreaFuture<-crop(futureClim, predictExtent*1.5)
 
 salamanderFuturePrediction<-raster::predict(salamanderSDM, geographicAreaFuture)
 salamanderSPDF<-as(salamanderFuturePrediction, "SpatialPixelsDataFrame")
 salamanderPredictionDataFrame<-as.data.frame(salamanderSPDF)
+#cropped climate data to area where salamanders live
 
 
 xmax <- max(salamanderPredictionDataFrame$x)

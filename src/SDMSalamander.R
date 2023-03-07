@@ -10,14 +10,17 @@ library(maps)
 
 salamanderCSV<-read_csv("data/salamanderData.csv")
 salamanderDataNotCoords<-salamanderCS%>%dplyr::select(longitude,latitude)
-salamanderDataSpatialPts <- SpatialPoints(salamanderDataNotCoords, proj4string = CRS("+proj=longlat"))
+salamanderDataSpatialPts <- SpatialPoints(salamanderDataNotCoords, proj4string = CRS("+proj=longlat")) 
+#removed data without coordinates and turned into spatial pts
 
 currentEnv <- getData("worldclim", var="bio", res=2.5, path="data/")
 climList <- list.files(path = "data/wc2-5/", pattern = ".bil$",full.names = T)
 clim <- raster::stack(climList)
+#got climate data
 
 mask <- raster(clim[[1]]) 
 geographicExtent <- extent(x = salamanderDataSpatialPts)
+#geographic extent of the salamanders
 
 set.seed(45) # seed set so we get the same background points each time we run this code 
 backgroundPoints <- randomPoints(mask = mask, n = nrow(salamanderDataNotCoords),
@@ -33,6 +36,7 @@ absenceEnv<- na.omit(raster::extract(x = clim, y = backgroundPoints))
 
 presenceAbsenceV <- c(rep(1, nrow(occEnv)), rep(0, nrow(absenceEnv)))
 presenceAbsenceEnvDf <- as.data.frame(rbind(occEnv, absenceEnv)) 
+#framed where data does and does not occur
 
 salamanderSDM <- dismo::maxent(x = presenceAbsenceEnvDf, ## env conditions
                          p = presenceAbsenceV,   ## 1:presence or 0:absence
