@@ -10,8 +10,8 @@ ggplot()+
   theme(panel.background = element_rect(fill = "#BFD5E3", colour = "#6D9EC1"))+
   geom_polygon(data=wrld, mapping=aes(x=long, y=lat, group=group), fill="grey75") +
   geom_point(data=noNASal, mapping=aes(x=longitude, y=latitude),show.legend = FALSE, color="darkgreen")+
-  labs(title="species occurences of Rhyacotriton cascadae from 1818-2023", x="longitude", y="latitude")+
+  labs(title="species occurrences of Rhyacotriton cascadae from 1818-2023", x="longitude", y="latitude")+
   coord_fixed(xlim=c(xmin -2,xmax +2), ylim=c (ymin,ymax))+
   scale_size_area()+
   borders("state")
-ggsave(filename="salamanderOccurence.jpg", scale=2, path="output")
+ggsave(filename="salamanderOccurrence.jpg", scale=2, path="output")
