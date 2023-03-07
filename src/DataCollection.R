@@ -24,7 +24,7 @@ ggplot()+
   scale_size_area()+
   borders("state")
   
-
+ggsave(filename="salamanderOccurence.jpg", scale=2, path="output")
 
 #the occurrence points are places where a person saw a salamander. 
 #They're verified by several people to be counted as research grade.

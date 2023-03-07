@@ -1,12 +1,10 @@
 install.packages("dismo")
 install.packages("maptools")
-install.packages("tidyverse")
 install.packages("rJava")
 install.packages("maps")
 
 library(dismo)
 library(maptools)
-library(tidyverse)
 library(rJava)
 library(maps)
 
