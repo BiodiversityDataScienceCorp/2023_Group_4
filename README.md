@@ -1,4 +1,4 @@
-# H1 Rhyacotriton cascadae SSA
+# Rhyacotriton cascadae SSA
 
 Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
@@ -6,7 +6,9 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
 -   Creating Species Occurence Maps and Species Distribution Models for Species Status Assessment of Rhyacotriton cascadae
 -   Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
--   Completed March, 2023 \# H3 Dependencies The following R packages are required (these will be installed in each file where necessary):
+-   Completed March, 2023 \
+#  Dependencies 
+The following R packages are required (these will be installed in each file where necessary):
 -   raster
 -   dismo
 -   spocc
@@ -14,12 +16,16 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 -   tidyverse
 -   maps
 -   maptools \# H4 Structure
-
+# Structure
 # Data
 
 # Outputs
 
-output (contents are not under version control) \* occurancemap.jpeg \* currentsdm.jpeg \* futuresdm.jpeg \* maxent_outputs
+output (contents are not under version control) 
+* occurancemap.jpeg 
+* currentsdm.jpeg 
+* futuresdm.jpeg 
+* maxent_outputs
 
 # Scripts
 
@@ -37,4 +43,4 @@ Run the scripts in the following order
 
 3\. SalamanderSDM.R
 
-4\. futureSDM.R .
+4\. [futureSDM.R]( 
