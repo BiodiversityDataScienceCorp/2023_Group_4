@@ -37,8 +37,6 @@ scripts (directory containing R scripts for gathering occurrence data, running f
 * [SDMSalamander.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/SDMSalamander.R) to run a maxent model and generate a current sdm \
 * [futureSDM.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/futureSDM.R) to generate a future SDM, in 70 years under IP model
 
-Homework
-
 # Running the code
 
 Run the scripts in the following order
