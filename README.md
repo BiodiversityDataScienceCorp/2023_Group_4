@@ -1,6 +1,6 @@
 # Rhyacotriton cascadae SSA
 
-Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
+Sydney C, Aubrey W, Finn W, Olivia V, GH repo for ADS 2023
 
 # Overview
 
