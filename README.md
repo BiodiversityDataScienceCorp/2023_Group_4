@@ -29,4 +29,12 @@ Homework
 
 # Running the code
 
-Run the scripts in the following order 1. DataCollection.R 2. SpeciesDistributionmap.R 3. SalamanderSDM.R 4. futureSDM.R .
+Run the scripts in the following order
+
+1\. DataCollection.R
+
+2\. SpeciesDistributionmap.R
+
+3\. SalamanderSDM.R
+
+4\. futureSDM.R .
