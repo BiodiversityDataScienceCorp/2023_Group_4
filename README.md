@@ -6,7 +6,7 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
 -   Creating Species Occurence Maps and Species Distribution Models for Species Status Assessment of Rhyacotriton cascadae
 -   Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
--   Completed March, 2023
+-   Completed March, 14, 2023
 #  Dependencies 
 The following R packages are required (these will be installed in each file where necessary):
 -   raster
