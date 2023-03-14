@@ -29,7 +29,11 @@ output (contents are not under version control)
 
 # Scripts
 
-scripts (directory containing R scripts for gathering occurrence data, running forecast models, and creating map outputs) \* DataCollection.R for obtaining the GBIF data \* SpeciesDistributionMap.R to create the occurrence map of the GBIF data \* SDMSalamander.R to run a maxent model and generate a current sdm \* futureSDM.R to generate a future SDM, in 70 years under IP model
+scripts (directory containing R scripts for gathering occurrence data, running forecast models, and creating map outputs) \
+* [DataCollection.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/DataCollection.R) for obtaining the GBIF data \
+* [SpeciesOccurenceMap.R]((https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderOccurrence.jpg) create the occurrence map of the GBIF data \
+* [SDMSalamander.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/SDMSalamander.R) to run a maxent model and generate a current sdm \
+* [futureSDM.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/futureSDM.R) to generate a future SDM, in 70 years under IP model
 
 Homework
 
