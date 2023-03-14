@@ -37,10 +37,10 @@ Homework
 
 Run the scripts in the following order
 
-1\. DataCollection.R
+1\. [DataCollection.R]((https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/DataCollection.R)
 
-2\. SpeciesDistributionmap.R
+2\. [SpeciesDistributionMap.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/SpeciesDistributionMap.R)
 
-3\. SalamanderSDM.R
+3\. [SDMSalamander.R]([(https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/SDMSalamander.R)
 
-4\. [futureSDM.R]( 
+4\. [futureSDM.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/futureSDM.R)
