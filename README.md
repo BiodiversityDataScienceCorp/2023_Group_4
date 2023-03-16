@@ -1,4 +1,4 @@
-# Rhyacotriton cascadae SSA
+# Rhyacotriton cascadae Specie Distribution Model
 
 Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
