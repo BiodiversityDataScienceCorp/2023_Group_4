@@ -3,6 +3,7 @@
 Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
 # Rhyacotriton cascadae
+
   Rhyacotriton cascadae are small salamanders with a stocky body, a broad head, and large protruding eyes. They also vary highly in color that ranges from brown to olive to tan. Their bellies are usually yellow with black and white dots, and spotted sides. Adult Cascade Torrent salamanders are about two inches long, with sexual dimorphism present with smaller males.  Their larvae have small heads and eyes close to their snout, and look similar to the adults. Cascade torrent salamanders have a lifespan of about 10 years.
 
   Cascade torrent salamanders have a riparian habitat, and are found in or around permanent streams with fast-flowing, cold water, and steep banks. Rhyacotriton are more likely to be found in mature coniferous forests than younger forest stands and are intolerant to warm weather. Most commonly they are found in headwaters and waterfalls, and the banks of large streams. Usually they stay within a few yards of their home creek or river. The adults occasionally venture into the woods around a creek to feed, but must return to the water to survive. The eggs and larva require the running water to survive and so the range of the salamander is inherently limited to areas where the flow rate is acceptable. They also require loose rocks on the bottom of the creek, not silt bottomed bodies of water.
@@ -26,11 +27,13 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 -   [salamanderData]( from GBIF and iNaturalist for Rhyacotriton cascadae This dataset is not under version control, but will be harvested by running scripts/dataaquisitioncleaning.R.# Outputs
 
 # Output 
-(contents are not under version control)\
+
+(contents are not under version control)
 - [occurancemap.jpeg](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderOccurrence.jpg)
 - [currentsdm.jpeg](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderSDMCurrent.jpg)
 - [futuresdm.jpeg](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderSDMFuture.jpg)
 - [maxent_outputs](output)
+
 # Scripts
 
 scripts (directory containing R scripts for gathering occurrence data, running forecast models, and creating map outputs)\
@@ -38,8 +41,6 @@ scripts (directory containing R scripts for gathering occurrence data, running f
 \* [SpeciesOccurenceMap.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderOccurrence.jpg) create the occurrence map of the GBIF data\
 \* [SDMSalamander.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/SDMSalamander.R) to run a maxent model and generate a current sdm\
 \* [futureSDM.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/futureSDM.R) to generate a future SDM, in 70 years under IP model
-
-Homework
 
 # Running the code
 
