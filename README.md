@@ -1,6 +1,6 @@
 # Rhyacotriton cascadae Species Distribution Model
 
-Sydney C, Aubrey W, Finn W, Olivia V GitHub repo for Applied Data Science 2023
+Sydney C, Aubrey W, Finn W, Olivia V
 
 # Rhyacotriton cascadae
 
