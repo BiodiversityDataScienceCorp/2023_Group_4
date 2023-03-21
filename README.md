@@ -18,7 +18,12 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 -   cmip5: forcast climate data at 2.5 minute resolution from WorldClim. The data are for the year 2070, based on the IPSL-CM5A-LR model with an RCP of 4.5 CO2. For an examination of different forecast models, see McSweeney et al. 2015. To choose a different one, see the documentation on WorldClim(note: this folder is not under version control, but will be created by running the currentsdm script (scripts/futuresdm.R))
 -   [salamanderData]( from GBIF and iNaturalist for Rhyacotriton cascadae This dataset is not under version control, but will be harvested by running scripts/dataaquisitioncleaning.R.# Outputs
 
-output (contents are not under version control) \* occurancemap.jpeg \* currentsdm.jpeg \* futuresdm.jpeg \* maxent_outputs
+# Output 
+(contents are not under version control)\
+- occurancemap.jpeg 
+- currentsdm.jpeg 
+- futuresdm.jpeg 
+- maxent_outputs
 
 # Scripts
 
