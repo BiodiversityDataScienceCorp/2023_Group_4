@@ -36,7 +36,8 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
 # Scripts
 
-scripts (directory containing R scripts for gathering occurrence data, running forecast models, and creating map outputs)\
+scripts (directory containing R scripts for gathering occurrence data, running forecast models, and creating map outputs)
+
 \* [DataCollection.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/DataCollection.R) for obtaining the GBIF data\
 \* [SpeciesOccurenceMap.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderOccurrence.jpg) create the occurrence map of the GBIF data\
 \* [SDMSalamander.R](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/src/SDMSalamander.R) to run a maxent model and generate a current sdm\
