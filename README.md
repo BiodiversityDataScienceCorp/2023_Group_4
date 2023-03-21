@@ -20,11 +20,10 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
 # Output 
 (contents are not under version control)\
-- occurancemap.jpeg 
-- currentsdm.jpeg 
-- futuresdm.jpeg 
-- maxent_outputs
-
+- [occurancemap.jpeg](salamanderOccurrence.jpg)
+- [currentsdm.jpeg](salamanderSDMCurrent.jpg)
+- [futuresdm.jpeg](salamanderSDMFuture.jpg)
+- [maxent_outputs](output)
 # Scripts
 
 scripts (directory containing R scripts for gathering occurrence data, running forecast models, and creating map outputs)\
