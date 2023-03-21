@@ -20,9 +20,9 @@ Sydney C, Aubrey W, Finn W, Olivia GH repo for ADS 2023
 
 # Output 
 (contents are not under version control)\
-- [occurancemap.jpeg](salamanderOccurrence.jpg)
-- [currentsdm.jpeg](salamanderSDMCurrent.jpg)
-- [futuresdm.jpeg](salamanderSDMFuture.jpg)
+- [occurancemap.jpeg](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderOccurrence.jpg)
+- [currentsdm.jpeg](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderSDMCurrent.jpg)
+- [futuresdm.jpeg](https://github.com/BiodiversityDataScienceCorp/2023_Group_4/blob/main/output/salamanderSDMFuture.jpg)
 - [maxent_outputs](output)
 # Scripts
 
