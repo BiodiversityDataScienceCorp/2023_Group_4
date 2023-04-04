@@ -9,7 +9,7 @@ library(rJava)
 library(maps)
 
 salamanderCSV<-read_csv("data/salamanderData.csv")
-salamanderDataNotCoords<-salamanderCS%>%dplyr::select(longitude,latitude)
+salamanderDataNotCoords<-salamanderCSV%>%dplyr::select(longitude,latitude)
 salamanderDataSpatialPts <- SpatialPoints(salamanderDataNotCoords, proj4string = CRS("+proj=longlat")) 
 #removed data without coordinates and turned into spatial pts
 
@@ -41,6 +41,8 @@ presenceAbsenceEnvDf <- as.data.frame(rbind(occEnv, absenceEnv))
 salamanderSDM <- dismo::maxent(x = presenceAbsenceEnvDf, ## env conditions
                          p = presenceAbsenceV,   ## 1:presence or 0:absence
                          path=paste("output/maxent_outputs"))
+
+response(salamanderSDM)
 
 
 predictExtent <- 2 * geographicExtent # choose here what is reasonable for your pts (where you got background pts from)
