@@ -9,11 +9,11 @@ library(rJava)
 library(maps)
 
 salamanderCSV<-read_csv("data/salamanderData.csv")
-salamanderDataNotCoords<-salamanderCS%>%dplyr::select(longitude,latitude)
+salamanderDataNotCoords<-salamanderCSV%>%dplyr::select(longitude,latitude)
 salamanderDataSpatialPts <- SpatialPoints(salamanderDataNotCoords, proj4string = CRS("+proj=longlat")) 
 #removed data without coordinates and turned into spatial pts
 
-currentEnv <- getData("worldclim", var="bio", res=2.5, path="data/")
+currentEnv <- getData("worldclim", var="bio", res=0.5, lon=-121 , lat=46 , path="data/")
 climList <- list.files(path = "data/wc2-5/", pattern = ".bil$",full.names = T)
 clim <- raster::stack(climList)
 #got climate data
