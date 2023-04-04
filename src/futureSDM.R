@@ -31,4 +31,4 @@ ggplot() +
        fill = "Env Suitability") +
   theme(legend.box.background=element_rect(),legend.box.margin=margin(5,5,5,5)) 
 
-ggsave(filename="salamanderSDMFuture.jpg", path="output", scale=3)
+ggsave(filename="salamanderSDMFuture70.jpg", path="output", scale=3)
