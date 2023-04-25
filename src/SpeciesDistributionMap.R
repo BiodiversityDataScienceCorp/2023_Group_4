@@ -3,7 +3,7 @@
 wrld<-ggplot2::map_data("world")
 xmax<-max(noNASal$longitude)
 xmin<-min(noNASal$longitude)
-ymax<-max(noNASal$latitude)
+ymax<-max(noNASal$latitude).
 ymin<-min(noNASal$latitude)
 
 ggplot()+
