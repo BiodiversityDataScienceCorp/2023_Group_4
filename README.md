@@ -1,7 +1,9 @@
 # Rhyacotriton cascadae Species Distribution Model
 
-Sydney C, Aubrey W, Finn W, Olivia V
 [![DOI](https://zenodo.org/badge/595765803.svg)](https://zenodo.org/badge/latestdoi/595765803)
+
+Sydney C, Aubrey W, Finn W, Olivia V
+
 ![image](https://user-images.githubusercontent.com/122934743/231263920-2b519bf9-daa4-4c7c-810b-18198fc6d7a3.png)
 
 # Rhyacotriton cascadae
